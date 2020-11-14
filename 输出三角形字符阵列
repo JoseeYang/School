@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int n = 0;
+	int now = 65;
+	int contool = 1;
+	int flag = 0;
+	scanf("%d",&n);
+	
+	contool = n;
+	
+	for( ; n>0 ; n-- ){
+		flag = n;
+		
+		for(contool = n; contool>0 ; now++){
+			printf("%c ",now);
+			contool--;
+		}
+		
+		if(flag != 1)
+			printf("\n");
+			flag--;
+	}
+	return 0;
+}
