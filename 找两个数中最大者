@@ -1,0 +1,9 @@
+int max( int a, int b )
+{
+	int back = a;
+	
+	if(a < b)
+	back = b;
+	
+	return back;
+}
