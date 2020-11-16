@@ -11,8 +11,7 @@ int main()
 
     return 0;
 }
-
-/*ÄãµÄ´úÂë»á±»ÏâÇ¶ÔÚÕâÀï*/ 
+/**/
 int CountDigit( int number, int digit )
 {
 	int back = 0;
