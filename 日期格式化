@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int day;
+	int mou;
+	int year;
+	
+	scanf("%d-%d-%d",&mou,&day,&year);
+	
+	printf("%.4d-%.2d-%.2d",year,mou,day);
+	
+	return 0;
+}
