@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int in;
+	int ge;
+	int shi;
+	int bai;
+	int out;
+	
+	scanf("%d",&in);
+	
+	ge = in % 10;
+	in = in / 10;
+	
+	shi = in % 10;
+	in  = in / 10;
+	
+	bai = in;
+	
+	out = bai*1+shi*10+ge*100;
+	
+	printf("%d",out);
+	
+	return 0;
+}
